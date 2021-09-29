@@ -6,9 +6,9 @@ function_question = input("""Select Function:
                             1) Cobb-Douglas
                             2) Max
                             3) Min
-                            4) Quasi-Lineales
-                            7) Start with Marshalls demand
-                            6) Start with Hicksians demand
+                            4) Quasilinear
+                            7) Start with Marshallian demand
+                            6) Start with Hicksian demand
                             """)
 
 def cobbDouglas():
