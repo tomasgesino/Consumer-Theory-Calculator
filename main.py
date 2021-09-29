@@ -15,7 +15,6 @@ def cobbDouglas():
     x1, x2, p1, p2, m = sp.symbols('x1 x2 p1 p2 m')
     text_function = input("""Please type function: """)
     utility_function = sp.sympify(text_function)
-    # utility_function = x1**1*x2**1
     mux = utility_function.diff(x1)
     muy = utility_function.diff(x2)
     eq1 = sp.Eq(mux/muy, p1/p2)
